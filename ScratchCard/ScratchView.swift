@@ -179,7 +179,7 @@ open class ScratchView: UIView {
         line.path = linePath.cgPath
         line.opacity = 1
         line.strokeColor = UIColor.white.cgColor
-        line.lineCap = "round"
+        line.lineCap = .init(rawValue: "round")
         layer.addSublayer(line)
     }
     
